@@ -4,6 +4,7 @@ body {
     padding: 0;
     margin: 0;
     background-color: #fff;
+    overflow: hidden;
 }
 
 header {
@@ -12,6 +13,7 @@ header {
     margin: 0;
     padding: 0;
     position: relative;
+    overflow: hidden;
 }
 
 header .base {
@@ -22,7 +24,6 @@ header .base {
     clip-path: polygon(0 80vh, 100% 20vh, 100% 100%, 0 100%);
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 
 header .logo {
@@ -85,4 +86,104 @@ header .google img {
     width: 100%;
     height: 100%;
     opacity: .8;
+}
+
+@media(max-width: 1000px) {
+    header .logo {
+        top: 4rem;
+        left:8rem;
+        width: 180px;
+        height: 140px;
+    }
+    header .syntax {
+        top: 15rem;
+        left: 8rem;
+    }
+    header .syntax p {
+        font-size: 60px;
+    }
+    header .device {
+        right: 5vw;
+        bottom: 20vh;
+        height: 320px;
+        width: 450px;
+    }
+}
+@media(max-width: 700px) {
+    header .logo {
+        top: 4rem;
+        left:4rem;
+        width: 160px;
+        height: 120px;
+    }
+    header .syntax {
+        top: 13rem;
+        left: 4rem;
+    }
+    header .syntax p {
+        font-size: 50px;
+    }
+    header .device {
+        right: -2vw;
+        bottom: 20vh;
+        height: 260px;
+        width: 350px;
+    }
+    header .google {
+        width: 60px;
+        height: 60px;
+    }
+}
+@media(max-width: 550px) {
+    header .logo {
+        top: 2rem;
+        left:3rem;
+        width: 160px;
+        height: 120px;
+    }
+    header .syntax {
+        top: 11rem;
+        left: 3rem;
+    }
+    header .syntax p {
+        font-size: 40px;
+    }
+    header .device {
+        right: -8vw;
+        bottom: 15vh;
+        height: 260px;
+        width: 350px;
+    }
+    header .google {
+        width: 50px;
+        height: 50px;
+    }
+}
+@media(max-width: 420px) {
+    header .logo {
+        top: 2rem;
+        left:2rem;
+        width: 140px;
+        height: 100px;
+    }
+    header .syntax {
+        top: 10rem;
+        left: 2rem;
+    }
+    header .syntax p {
+        font-size: 40px;
+        text-shadow: 0 3px 4px rgba(0,0,0,.3);
+    }
+    header .device {
+        right: 0vw;
+        bottom: 10vh;
+        height: 210px;
+        width: 300px;
+    }
+    header .google {
+        width: 50px;
+        height: 50px;
+        right: 1rem;
+        bottom: 1rem;
+    }
 }
