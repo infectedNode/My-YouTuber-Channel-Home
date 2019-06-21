@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300,400,500&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+header .base {
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: #eee;
+    clip-path: polygon(0 80vh, 100% 20vh, 100% 100%, 0 100%);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+header .logo {
+    position: absolute;
+    top: 4rem;
+    left:10rem;
+    width: 200px;
+    height: 150px;
+}
+
+header .logo img {
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+}
+
+header .syntax {
+    position: absolute;
+    top: 17rem;
+    left: 10rem;
+}
+
+header .syntax p {
+    font-size: 70px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    color: #494a49;
+    text-shadow: 0 4px 6px rgba(0,0,0,.3);
+}
+
+header .syntax .dark {
+    color: #000;
+}
+
+header .device {
+    position: absolute;
+    right: 15vw;
+    bottom: 20vh;
+    height: 400px;
+    width: 550px;
+    z-index: 1;
+}
+
+header .device img {
+    width: 100%;
+    height: 100%;
+}
+
+header .google {
+    position: absolute;
+    right: 2rem;
+    bottom: 1rem;
+    width: 80px;
+    height: 80px;
+}
+
+header .google img {
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+}
