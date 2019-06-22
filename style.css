@@ -195,6 +195,9 @@ header .google img {
     width: 100%;
     margin: 0;
     padding: 0;
+    background: linear-gradient(to right, rgba(255,255,255,.4),rgba(255,255,255,.4)), url(./images/21_.jpg) fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 .banner p {
