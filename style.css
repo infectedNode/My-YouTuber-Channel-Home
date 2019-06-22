@@ -303,3 +303,115 @@ header .google img {
     height: 100%;
 }
 
+@media(min-width: 550px) {
+    .demo .block p {
+        left: 0rem;
+        top: 10rem;
+        transform: translate(0,0);
+        font-size: 45px;
+        text-shadow: 0 3px 4px rgba(0,0,0,.3);
+        padding: 20px 0;
+        width: 50%;
+    }    
+    .demo .block .phone {
+        left: 16rem;
+        top: -8rem;
+        transform: translate(0,0);
+        width: 420px;
+        height: 500px;
+        margin-bottom: -8rem;
+    }
+    .demo .dark p {
+        left: 18rem;
+        top: 12rem;
+    }
+    .demo .dark .phone{
+        left: -3rem;
+        top: -8rem;
+    }
+    .demo .block .invoke {
+        top: 13rem;
+        left: 5rem;
+        transform: translate(0);
+        font-size: 25px;
+        padding: 10px 30px 15px 5px;
+        width: 40%;
+        clip-path: polygon(90% 0, 90% 65%, 94% 100%, 83% 90%, 0 90%, 0 0);
+        margin-bottom: 0px;
+    }
+}
+@media(min-width: 700px) {
+    .demo .block p {
+        left: 2rem;
+        top: 10rem;
+        transform: translate(0,0);
+        font-size: 60px;
+        text-shadow: 0 3px 4px rgba(0,0,0,.3);
+        padding: 20px 0;
+        width: 50%;
+    }    
+    .demo .block .phone {
+        left: 22rem;
+        top: -8rem;
+        transform: translate(0,0);
+        width: 520px;
+        height: 600px;
+        margin-bottom: -8rem;
+    }
+    .demo .dark p {
+        left: 24rem;
+        top: 12rem;
+    }
+    .demo .dark .phone{
+        left: 0rem;
+        top: -8rem;
+    }
+    .demo .block .invoke {
+        top: 15rem;
+        left: 5rem;
+        transform: translate(0);
+        font-size: 25px;
+        padding: 10px 40px 15px 5px;
+        width: 40%;
+        clip-path: polygon(90% 0, 90% 65%, 94% 100%, 83% 90%, 0 90%, 0 0);
+        margin-bottom: 0px;
+    }
+}
+@media(min-width: 1025px) {
+    .demo .block p {
+        left: 10rem;
+        top: 15rem;
+        transform: translate(0,0);
+        font-size: 70px;
+        text-shadow: 0 3px 4px rgba(0,0,0,.3);
+        padding: 20px 0;
+        width: 40%;
+    }    
+    .demo .block .phone {
+        left: 45rem;
+        top: -8rem;
+        transform: translate(0,0);
+        width: 620px;
+        height: 700px;
+        margin-bottom: -8rem;
+    }
+    .demo .dark p {
+        left: 40rem;
+        top: 12rem;
+    }
+    .demo .dark .phone{
+        left: 2rem;
+        top: -8rem;
+    }
+    .demo .block .invoke {
+        top: 20rem;
+        left: 15rem;
+        transform: translate(0);
+        font-size: 25px;
+        padding: 10px 40px 15px 5px;
+        width: 40%;
+        clip-path: polygon(90% 0, 90% 65%, 94% 100%, 83% 90%, 0 90%, 0 0);
+        margin-bottom: 0px;
+    }
+}
+
