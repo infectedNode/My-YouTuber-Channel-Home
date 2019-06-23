@@ -717,3 +717,78 @@ header .google img {
         margin-bottom: 50px;
     }
 }
+
+.footer {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #494a49;
+    font-size: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.footer .logo {
+    display: inline-block;
+    margin: 0;
+    padding: 10px;
+    width: 80px;
+    height: 60px;
+}
+
+.footer .logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer p {
+    transform: translateY(-80%);
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 300;
+    color: #efecee;
+}
+
+.footer:hover p .name {
+    text-decoration: underline;
+    color: #fff;
+}
+
+@media(max-width: 768px) {
+    .footer .logo {
+        padding: 10px;
+        width: 65px;
+        height: 50px;
+    }
+    .footer p {
+        transform: translateY(-80%);
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 425px) {
+    .footer .logo {
+        padding: 5px;
+        width: 53px;
+        height: 40px;
+    }
+    .footer p {
+        transform: translateY(-75%);
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 375px) {
+    .footer .logo {
+        padding: 2px;
+        width: 47px;
+        height: 35px;
+    }
+    .footer p {
+        transform: translateY(-70%);
+        font-size: 14px;
+    }
+}

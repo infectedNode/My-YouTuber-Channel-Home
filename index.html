@@ -72,5 +72,15 @@
             </div>
         </div>
     </section>
+    <section class="footer">
+        <div class="logo">
+            <img src="./images/camera-light.png" alt="logo">
+        </div>
+        <p class="name"> Copyright &copy; <span id="year"></span> <span class="name">My YouTuber Channel</span>, Inc.</p>
+    </section>
+    <script>
+        let year = new Date().getFullYear();
+        document.getElementById('year').innerHTML = year;
+    </script>
 </body>
 </html>
